@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#d3d3d3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT OPTIONS"
+        android:padding="5dp"/>
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="3dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp"
+                 android:text="CREDIT/DEBIT CARD"
+                 android:textColor="#000000"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                 android:padding="5dp"
+                 android:text="NET BANKING"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                 android:padding="5dp"
+                 android:text="CASH/CARD ON DELIVERY"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp"
+                 android:textColor="#000000"
+                 android:text="PHONEPE/BHIM UPI"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                 android:padding="5dp"
+                 android:text="PAYPAL"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                 android:padding="5dp"
+                 android:text="PAYTM"/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#363333"/>
+         </LinearLayout>
+     </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="PRICE DETAILS"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Total"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Rs. 12,900"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Charges"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Rs. 49"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="#000000"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:text="Rs. 12,949"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:id="@+id/buy_id"
+        android:background="@color/colorPrimaryDark"
+        android:text="Buy Now"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:id="@+id/cancel_id"
+        android:background="@color/colorPrimaryDark"
+        android:text="Cancel Purchase ? Go back to shop more!"/>
+
+</LinearLayout>

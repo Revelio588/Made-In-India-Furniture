@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/pop_id"
+    android:padding="10px"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter The OTP Sent on your Registered Number "
+        android:textAllCaps="true"
+        android:layout_marginBottom="17dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/otp_id"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:background="@drawable/edittext_bg"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        android:id="@+id/submit_otp_id"
+        android:background="@drawable/buttonstyle"/>
+
+
+</LinearLayout>

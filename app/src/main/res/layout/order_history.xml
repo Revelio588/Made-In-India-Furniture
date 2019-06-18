@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Orders"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#d3d3d3"
+        android:text="2019"
+        android:padding="7dp"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/history_rec_view"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

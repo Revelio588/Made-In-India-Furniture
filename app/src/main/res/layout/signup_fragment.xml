@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/signup_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/user_sign_id"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    android:drawableLeft="@drawable/adminsmall2"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Enter your name" />
+
+
+                <EditText
+                    android:id="@+id/email_id"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_bg"
+                    android:ems="10"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:hint=" Enter Email id"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/pass_id"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/lock_smalldpi"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="1"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Create Password"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/confirmpass_id"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="1"
+                    android:drawableLeft="@drawable/lock_smalldpi"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/contact_id"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:maxLength="10"
+                    android:inputType="number"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:background="@drawable/edittext_bg"
+                    android:hint=" Enter Phone Number" />
+
+                <ProgressBar
+                    android:id="@+id/reg_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:visibility="invisible" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="60dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="sign up"
+                        android:textAllCaps="true"
+                        android:id="@+id/reg_id"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#0f0f0f"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475734339492",
+    "firebase_url": "https://made-in-india-furniture.firebaseio.com",
+    "project_id": "made-in-india-furniture",
+    "storage_bucket": "made-in-india-furniture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475734339492:android:41e9fa6be70502dd",
+        "android_client_info": {
+          "package_name": "com.example.madeinindiafurniture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475734339492-5u3nhdvhdum1bjk5141gps8dhgokgodf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madeinindiafurniture",
+            "certificate_hash": "ff28bcc4317e599bdeb3e5ef13353c8dea9d900b"
+          }
+        },
+        {
+          "client_id": "475734339492-8lntvop9rghfqcca3h53rvb6ohgg6fue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9707q-pH6M9VBeEZRdAD1fZAVy6sL7M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475734339492-8lntvop9rghfqcca3h53rvb6ohgg6fue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

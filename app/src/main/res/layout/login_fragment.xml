@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/ly_bottom"
+        android:layout_marginBottom="7dp"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/fb_btn"
+        android:background="@drawable/fb_button"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:id="@+id/google_btn"
+        android:background="@drawable/google_button"
+        />
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+           android:layout_gravity="center"
+        android:textColor="#161414"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="18sp"
+        android:text="Or"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="13sp"
+        android:hint="YOUR USERNAME"
+        android:drawableLeft="@drawable/adminsmall2"
+        android:padding="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/user_id"
+        android:background="@drawable/edittext_bg"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="YOUR PASSWORD"
+        android:textSize="13sp"
+        android:id="@+id/l_pass_id"
+        android:drawableLeft="@drawable/lock_smalldpi"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:background="@drawable/edittext_bg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:id="@+id/reset_pass_id"
+        android:text="Don't Remember Your Password?"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/ly_bottom"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimaryDark"
+            android:text="LOG IN"
+            android:id="@+id/login_button"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#0f0f0f"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

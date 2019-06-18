@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragement_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="51dp"
+    android:padding="4dp"
+    android:background="@color/yellowBg">
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5sp"
+        android:padding="5dp"
+        android:elevation="2dp"
+        android:id="@+id/search_id"
+        android:autofillHints="Search for Products, Brands and More"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="@drawable/botton_white_bg">
+
+    </android.support.v7.widget.SearchView>
+
+
+</FrameLayout>

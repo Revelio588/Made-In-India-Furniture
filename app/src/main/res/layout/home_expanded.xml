@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="36dp"
+    android:background="@color/yellowBg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/yellowBg"
+        android:layout_marginTop="10dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/sort_id"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/sort_small"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="18dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sort"
+                        android:layout_margin="7dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="2dp"
+                android:background="@android:color/darker_gray"
+                android:layout_height="match_parent"/>
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/filter_id"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/filter_small" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Filter"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="#ffffff"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/rec_view_list"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</ScrollView>
